@@ -1,10 +1,10 @@
 ### Get all Users
-GET http://localhost:3000/users
+GET http://localhost:5000/users
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsIm5hbWUiOiJNdWhhbW1hZCBEd2kgU3VzYW50byIsImVtYWlsIjoiZHdpc3VzYW50bzc4NEBnbWFpbC5jb20iLCJpYXQiOjE2NjE0MTUyMzgsImV4cCI6MTY2MTQxNTI1M30.jw30n8XUkRHI_omjlGiSGosAvBxSS79PX_1SC4rsjdw
 
 
 ### Register
-POST http://localhost:3000/users
+POST http://localhost:5000/users
 Content-Type: application/json
 
 {
@@ -15,7 +15,7 @@ Content-Type: application/json
 }
 
 ### Login
-POST http://localhost:3000/login
+POST http://localhost:5000/login
 Content-Type: application/json
 
 {
@@ -24,7 +24,7 @@ Content-Type: application/json
 }
 
 ### Refresh token
-GET http://localhost:3000/token
+GET http://localhost:5000/token
 
 ###
-DELETE http://localhost:3000/logout
+DELETE http://localhost:5000/logout
